@@ -1,0 +1,63 @@
+*{
+    margin: 0; 
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar > p {
+    display: flex;
+    gap : 50px;
+
+   
+}
+
+#navbar>p> button, a {
+    font-size: 40px;
+    margin: 10px;
+    padding: 10px
+}
+
+#navbar>p> button {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#container {
+    background-color: papayawhip;
+    margin:20px;
+    min-height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap :20px;
+}
+
+.card {
+    width: 250px;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#sel_cate {
+    float: left;
+    left : 30%;
+    top:10%;
+    /* display: none; */
+}
+
+#sel_order {
+    float: left;
+    left : 30%;
+    top:10%;
+    /* display: none; */
+}

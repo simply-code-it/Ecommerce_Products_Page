@@ -1,0 +1,27 @@
+*{
+    margin: 0; 
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+#container {
+    background-color: papayawhip;
+    margin:20px;
+    min-height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap :20px;
+}
+
+.card {
+    width: 500px;
+    margin: 30px;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
